@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.set-border {
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #000000;
+	border: 3px solid #ADADAD;
+	text-align: center;
+}
+
+.header-set-marin-top {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.search-left {
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	font-size: 21px;
+	background-color: #01A37E;
+	text-align: center;
+}
+
+#searchButton {
+	height: 40px;
+	border: 3px solid black;
+	display: inline-block;
+	width: 400px;
+}
+
+table {
+	margin-left: 20px;
+}
+
+table a {
+	color: black;
+	display: inline-block;
+	padding-left: 30px;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.now-price {
+	color: red;
+	font-weight: bolder;
+}
+
+.set-price {
+	color: #969696;
+}
+
+.pre-price {
+	text-decoration: line-through;
+	color: #969696;
+}
+
+.discontent {
+	color: #969696;
+}
+
+.bookName:hover {
+	text-decoration: underline;
+	color: red;
+}
+.star{
+	display: inline-block;
+}
+.star img{
+	display: inherit;
+}
+.new_lable1 {
+    background-color: white;
+    border: 1px solid #ff2832;
+    color: #ff2832;
+    border-radius: 2px;
+    padding: 0 2px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    margin-right: 5px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: 4px;
+    line-height: 14px;
+}
+
+.new_lable2 {
+    background-color: #ff2933;
+    color: white;
+    margin-right: 5px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    padding: 1px 2px;
+    border-radius: 2px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: 4px;
+    line-height: 14px;
+    
+}
+.media-left img{
+	width: 200px;
+	height: 200px;
+}
+p{
+	margin: 0 0 5px;
+}
+.search_btn_cart {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+}
+.search_btn_collect {
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    background: #ffedee;
+    color: #ff2832;
+    border: 1px solid #ff2832;
+    display: inline-block;
+    zoom: 1;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+}
+.price .search_e_price span {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    display: inline-block;
+    background-color: #739cde;
+    color: white;
+    padding: 2px 3px;
+    line-height: 12px;
+    border-radius: 2px;
+    margin: 0 4px 0 5px;
+}
+.search_e_price i {
+    color: #214c90;
+    font-family: arial;
+    font-size: 18px;
+    font-style: normal;
+}
+#footer{
+	height: 300px;
+	background-color: #414141;
+	margin-top: 30px;
+}
+#footer1{
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #484848;
+}
+#footer1 img{
+	width: 32px;;
+}
+#footer1 span{
+	color: white;
+}
+#contents span{
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	margin-top: 30px;
+	height: 70px;
+	line-height: 70px;
+}
+.media{
+	margin-top: 30px;
+}

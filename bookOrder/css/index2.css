@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.set-border {
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 21px;
+	font-weight: bolder;
+	color: #000000;
+	border: 3px solid #ADADAD;
+	text-align: center;
+}
+
+.header-set-marin-top {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.col-md-9{
+	padding-left: 0;
+}
+#footer{
+	height: 300px;
+	background-color: #414141;
+	margin-top: 30px;
+}
+#footer1{
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #484848;
+}
+#footer1 img{
+	width: 32px;;
+}
+#footer1 span{
+	color: white;
+}
+#contents span{
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	margin-top: 30px;
+	height: 70px;
+	line-height: 70px;
+}
+/*图书分类*/
+.classfy{
+	list-style: none;
+	z-index: 5;
+}
+.classfy li{
+	height: 40px;
+	line-height: 40px;
+	background-color: #25BF99;
+	text-align: center;
+	color: white;
+	border-bottom: 2px solid #2EC69F;
+}
+.classfy li a{
+	color: white;
+	line-height: 40px;
+}
+.col-md-2,.col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+#myCarousel{
+	height: 320px;
+}
+.carousel-caption{
+	color: black;
+}
+a.carousel-control{
+	font-size: 60px;
+	padding-top:100px;
+}
+#gonggao{
+	height: 320px;
+	overflow: hidden;
+}
+#gonggao h4{
+	font-weight: bolder;
+	margin: 0;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	border-bottom: 3px solid #DDDDDD;
+	
+}
+#ulGongao li{
+	padding-top: 4px;
+	padding-bottom: 3px;
+	border-bottom: 3px dotted #DDDDDD;
+}
+#sumjectClassfy{
+	margin-top: 20px;
+	font-size: 23px;
+	color: #908F8B;
+}#sumjectClassfyPic{
+	padding-right: 0;
+}
+#sumjectClassfyPic img{
+	padding-bottom: 15px;
+	padding-left: 0;
+}
+#sumjectRecommend{
+	font-size: 23px;
+	margin-top: 50px;
+}
+.setBgOfContent{
+	
+	background-color: #FCFBF7;
+}
+
+/*推荐书籍*/
+.media-left img{
+	width: 150px;
+	height: auto;
+}
+.re-name{
+	padding-top: 20px;
+	font-family: 'Microsoft Yahei';
+	font-size: 17px;
+}
+.re-price{
+	color: #FF6F7A;
+}
+.media{
+	margin-top: 0;
+}
+/*图书分类滑出*/
+.container{
+	position: relative;
+}
+.through{
+	position: absolute;
+	left: 0px;
+	z-index: 2;
+	background: white;
+	opacity: 0.9;
+}
+.classfyDetails{
+	list-style: none;
+	display: none;
+}
+.classfyDetails ul{
+	list-style: none;
+	border: 2px #E1E6E5 solid;
+	height: 30px;
+	line-height: 30px;
+}
+.classfyDetails ul li{
+	display:inline;
+	padding-left: 8px;
+	padding-right: 7px;
+}
